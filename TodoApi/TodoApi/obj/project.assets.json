@@ -12078,11 +12078,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lswafford\\Desktop\\self-learning\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\lswafford\\Desktop\\self-learning\\web api\\TodoApi\\TodoApi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "C:\\Users\\lswafford\\Desktop\\self-learning\\TodoApi\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\lswafford\\Desktop\\self-learning\\web api\\TodoApi\\TodoApi\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\lswafford\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lswafford\\Desktop\\self-learning\\TodoApi\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\lswafford\\Desktop\\self-learning\\web api\\TodoApi\\TodoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
