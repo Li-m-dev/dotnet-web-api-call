@@ -17,6 +17,8 @@ namespace WEB_API_CRUD_Logics.Controllers
         private selfLearningEntities db = new selfLearningEntities();
 
         // GET: api/CRUD
+        [ResponseType(typeof(IEnumerable<Employee>))]
+        [Route("api/GetEmployees")]
         public IQueryable<Employee> GetEmployees()
         {
             return db.Employees;
@@ -24,6 +26,7 @@ namespace WEB_API_CRUD_Logics.Controllers
 
         // GET: api/CRUD/5
         [ResponseType(typeof(Employee))]
+        [Route("api/GetEmployee")]
         public IHttpActionResult GetEmployee(long id)
         {
             Employee employee = db.Employees.Find(id);
@@ -36,7 +39,7 @@ namespace WEB_API_CRUD_Logics.Controllers
         }
 
         // PUT: api/CRUD/5
-        [ResponseType(typeof(void))]
+        [Route("api/PutEmployee")]
         public IHttpActionResult PutEmployee(long id, Employee employee)
         {
             if (!ModelState.IsValid)
@@ -70,7 +73,8 @@ namespace WEB_API_CRUD_Logics.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/CRUD
+        // POST api/CRUD  
+        [Route("api/PostEmployee")]
         [ResponseType(typeof(Employee))]
         public IHttpActionResult PostEmployee(Employee employee)
         {
@@ -78,14 +82,16 @@ namespace WEB_API_CRUD_Logics.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             db.Employees.Add(employee);
             db.SaveChanges();
-
-            return CreatedAtRoute("DefaultApi", new { id = employee.ID }, employee);
+            return CreatedAtRoute("DefaultApi", new
+            {
+                id = employee.ID
+            }, employee);
         }
 
         // DELETE: api/CRUD/5
+        [Route("api/DeleteEmployee")]
         [ResponseType(typeof(Employee))]
         public IHttpActionResult DeleteEmployee(long id)
         {
@@ -110,6 +116,7 @@ namespace WEB_API_CRUD_Logics.Controllers
             base.Dispose(disposing);
         }
 
+        [Route("api/EmployeeExists")]
         private bool EmployeeExists(long id)
         {
             return db.Employees.Count(e => e.ID == id) > 0;

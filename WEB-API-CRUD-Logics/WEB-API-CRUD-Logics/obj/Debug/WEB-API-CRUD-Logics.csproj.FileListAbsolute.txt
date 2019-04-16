@@ -66,3 +66,6 @@ C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRU
 C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\obj\Debug\WEB-API-CRUD-Logics.csproj.CopyComplete
 C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\obj\Debug\WEB-API-CRUD-Logics.dll
 C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\obj\Debug\WEB-API-CRUD-Logics.pdb
+C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\bin\System.Web.Cors.dll
+C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\bin\System.Web.Http.Cors.dll
+C:\Users\lswafford\Desktop\self-learning\web api\WEB-API-CRUD-Logics\WEB-API-CRUD-Logics\bin\System.Web.Http.Cors.xml

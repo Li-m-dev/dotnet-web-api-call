@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace WEB_API_CRUD_Logics
 {
@@ -19,6 +20,7 @@ namespace WEB_API_CRUD_Logics
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.EnableCors(new EnableCorsAttribute("*", "*", "GET,PUT,POST,DELETE")); 
         }
     }
 }

@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\lswafford\\Desktop\\self-learning\\web api\\WEB-API-CRUD-Logics\\WEB-API-CRUD-Logics\\WEB-API-CRUD-Logics.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
